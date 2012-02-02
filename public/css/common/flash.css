@@ -1,0 +1,22 @@
+/* line 1, ../../../app/sass/common/flash.sass */
+#messages {
+  padding: 0 0 40px 10px;
+  font-weight: bolder;
+  font-size: 24px;
+  line-height: 1.5em;
+}
+/* line 7, ../../../app/sass/common/flash.sass */
+#messages li {
+  list-style-type: circle;
+  list-style-position: inside;
+}
+
+/* line 11, ../../../app/sass/common/flash.sass */
+.flash-info {
+  color: green;
+}
+
+/* line 14, ../../../app/sass/common/flash.sass */
+.flash-error {
+  color: red;
+}

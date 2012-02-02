@@ -1,0 +1,21 @@
+/* line 3, ../../../app/sass/common/header.sass */
+#header {
+  position: relative;
+}
+
+/* line 6, ../../../app/sass/common/header.sass */
+header {
+  padding: 230px 0 40px;
+}
+
+/* line 9, ../../../app/sass/common/header.sass */
+#logo {
+  position: absolute;
+  top: 15px;
+  left: 0;
+  display: block;
+  text-indent: -9999px;
+  width: 200px;
+  height: 120px;
+  background: url('/img/sprite-s7f7228bc18.png') no-repeat 0 -25px;
+}

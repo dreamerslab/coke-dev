@@ -1,0 +1,49 @@
+/* line 4, ../../../app/sass/common/base.sass */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bolder;
+  line-height: 2em;
+}
+
+/* line 8, ../../../app/sass/common/base.sass */
+h1 {
+  font-size: 36px;
+}
+
+/* line 11, ../../../app/sass/common/base.sass */
+li {
+  list-style-position: outside;
+  list-style-image: none;
+  list-style-type: none;
+}
+
+/* line 16, ../../../app/sass/common/base.sass */
+a {
+  color: #666666;
+  text-decoration: none;
+  outline: none;
+}
+
+/* line 21, ../../../app/sass/common/base.sass */
+input {
+  font-family: Georgia;
+}
+
+/* line 24, ../../../app/sass/common/base.sass */
+html, body {
+  height: 100%;
+}
+
+/* line 27, ../../../app/sass/common/base.sass */
+body {
+  font-family: Georgia;
+  font-size: 16px;
+  color: #666666;
+  line-height: 2em;
+}
+
+/* line 33, ../../../app/sass/common/base.sass */
+#wrap {
+  width: 900px;
+  margin: 0 auto;
+  padding: 0 20px;
+}

@@ -6,7 +6,7 @@ var Model = {
 
   User : new Schema({
 
-    name : { type : String, required : true, index: true },
+    name : { type : String, required : true, index : { unique : true, dropDups : true }},
 
     email : { type : String, required : true },
 

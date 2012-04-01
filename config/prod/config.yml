@@ -1,20 +1,25 @@
-# development
+# production
 server:
   host: 127.0.0.1
   port: 4000
   timezone: 'UTC'
+  cluster: true
 
 db:
   db: coke
-  host: localhost
+  # optional, default: localhost
+  host:
   # optional, default: 27017
-  port : 27963
+  port: 27963
   # optional
-  username :
+  username:
   # optional
-  password :
+  password:
+
+session:
   # optional, default: sessions
-  collection : sessions
+  collection:
+  secret: 2e798a6d81f7235c10a93313dc222b5763a62ba6
 
 logs:
   - error

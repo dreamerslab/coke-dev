@@ -20,14 +20,14 @@ var Model = {
 
 
 // auto update `updated_at` on save
-for( var model in Model ){
-  if( Model[ model ].updated_at !== undefined ){
-    model.pre( 'save', function ( next ){
+Object.keys( Model ).forEach( function ( model ){
+  if( Model[ model ].tree.updated_at !== undefined ){
+    Model[ model ].pre( 'save', function ( next ){
       this.updated_at = Date.now();
       next();
     });
   }
-}
+});
 
 
 

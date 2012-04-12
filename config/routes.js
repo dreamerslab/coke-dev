@@ -1,4 +1,4 @@
 module.exports = function ( map ){
-  map.get( '/','welcome#index' );
   map.resources( 'users' );
+  map.get( '/','welcome#index' );
 };

@@ -1,12 +1,10 @@
-var User = require( BASE_DIR + 'db/schema' ).User;
+module.exports = {
 
-User.statics = {
-
-  create_or_update : function ( user, props, callback ){
-    user.name  = props.name;
-    user.email = props.email;
-    user.save( callback );
+  statics : {
+    create_or_update : function ( user, props, callback ){
+      user.name  = props.name;
+      user.email = props.email;
+      user.save( callback );
+    }
   }
 };
-
-require( 'mongoose' ).model( 'User', User );

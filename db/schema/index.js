@@ -9,8 +9,8 @@ var Schema = function ( Schema ){
   var Models = {
 
     User : new Schema({
-      name : { type : String, required : true, index : true },
-      email : { type : String },
+      name       : { type : String, required : true, index : true },
+      email      : { type : String },
       created_at : { type : Number, 'default' : Date.now },
       updated_at : { type : Number }
     })
@@ -21,8 +21,7 @@ var Schema = function ( Schema ){
     if( Models[ model ].tree.updated_at !== undefined ){
       Models[ model ].pre( 'save', function ( next ){
         this.updated_at = this.isNew?
-          this.created_at :
-          Date.now();
+          this.created_at : Date.now();
 
         next();
       });

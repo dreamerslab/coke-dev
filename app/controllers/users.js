@@ -1,5 +1,5 @@
-var User        = Model( 'User' );
 var Application = require( CONTROLLER_DIR + 'application' );
+var User        = Model( 'User' );
 
 module.exports = Application.extend({
 

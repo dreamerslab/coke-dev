@@ -3,19 +3,18 @@
   "version"     : "0.0.1",
   "private"     : true,
   "dependencies": {
-    "coke"            : "0.12.6",
+    "coke"            : "0.13.0",
     "connect-mongodb" : "1.1.5",
     "express-messages": "0.0.2",
-    "moment"          : "1.7.0",
-    "mongoose"        : "3.2.1",
+    "moment"          : "1.7.2",
+    "mongoose"        : "3.2.2",
     "node.class"      : "1.0.1",
     "sitemap"         : "0.6.0",
     "socket.io"       : "0.9.10",
     "thunder"         : "0.1.5"
   },
   "devDependencies": {
-    "should": "1.1.0",
-    "zombie": "1.4.1"
+    "should": "1.2.0"
   },
   "main"   : "server",
   "engines": [ "node >= 0.8.0" ],

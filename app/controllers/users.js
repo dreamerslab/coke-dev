@@ -9,7 +9,7 @@ module.exports = Application.extend({
     after( this.record_not_found, { except : [ 'new', 'create', 'index' ]});
   },
 
-  'new' : function ( req, res, next ){
+  new : function ( req, res, next ){
     res.render( 'users/new' );
   },
 

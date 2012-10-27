@@ -6,9 +6,8 @@
 
 ## Requires
 
-  - node >= 0.6.x
-  - npm >= 1.0.x
-  - mongodb >= 2.0.X
+  - node >= 0.8.x
+  - mongodb >= 2.X
   - packages
     - see packages.json
 

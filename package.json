@@ -3,7 +3,7 @@
   "version"     : "0.0.1",
   "private"     : true,
   "dependencies": {
-    "coke"            : "0.13.3",
+    "coke"            : "0.13.5",
     "connect-mongodb" : "1.1.5",
     "express-messages": "0.0.2",
     "moment"          : "1.7.2",
@@ -11,7 +11,7 @@
     "node.class"      : "1.0.1",
     "sitemap"         : "0.6.0",
     "socket.io"       : "0.9.10",
-    "thunder"         : "0.1.5"
+    "thunder"         : "0.1.6"
   },
   "devDependencies": {
     "should": "1.2.0"

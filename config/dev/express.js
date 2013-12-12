@@ -19,7 +19,7 @@ module.exports = function ( express, app, middleware ){
     app.use( app.router );
     app.use( express.errorHandler({
       dumpExceptions : true,
-      showStack : true
+      showStack      : true
     }));
   });
 };

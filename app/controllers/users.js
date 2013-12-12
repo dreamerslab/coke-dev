@@ -6,7 +6,7 @@ module.exports = Application.extend({
   init : function ( before, after ){
     after( this.validation,       { only : [ 'create', 'update' ]});
     after( this.unique,           { only : [ 'create', 'update' ]});
-    after( this.record_not_found, { except : [ 'new', 'create', 'index' ]});
+    after( this.record_not_found, { only : [ 'show', 'edit', 'update', 'destroy' ]});
   },
 
   new : function ( req, res, next ){

@@ -1,28 +1,28 @@
 /* line 3, ../../../app/sass/common/nav.sass */
-nav {
+#nav {
   position: absolute;
   top: 150px;
   left: 0;
 }
 /* line 8, ../../../app/sass/common/nav.sass */
-nav li {
+#nav li {
   float: left;
   display: inline;
   margin: 0 10px 0 0;
 }
 /* line 12, ../../../app/sass/common/nav.sass */
-nav a {
+#nav a {
   display: block;
   padding: 0 10px;
   font-size: 20px;
 }
 /* line 16, ../../../app/sass/common/nav.sass */
-nav a:hover {
+#nav a:hover {
   background: #666666;
   color: white;
 }
 /* line 20, ../../../app/sass/common/nav.sass */
-nav .selected {
+#nav .selected {
   background: black;
   color: white;
 }

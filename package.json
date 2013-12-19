@@ -3,15 +3,14 @@
   "version"     : "0.0.1",
   "private"     : true,
   "dependencies": {
-    "coke"            : "0.16.6",
-    "connect-mongodb" : "1.1.5",
-    "express-messages": "0.0.2",
+    "coke"            : "0.18.1",
+    "connect-mongo"   : "0.4.0",
+    "express-thunder" : "1.1.6",
     "moment"          : "2.4.0",
-    "mongoose"        : "3.8.1",
-    "node.class"      : "1.1.1",
+    "mongoose"        : "3.8.3",
+    "node.class"      : "1.1.4",
     "sitemap"         : "0.7.1",
-    "socket.io"       : "0.9.16",
-    "thunder"         : "0.1.10"
+    "socket.io"       : "0.9.16"
   },
   "devDependencies": {
     "should": "2.1.1"

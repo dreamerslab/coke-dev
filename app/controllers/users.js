@@ -1,12 +1,12 @@
-var Application = require( CONTROLLER_DIR + 'application' );
+var Application = require( CONTROLLER_DIR + '/application' );
 var User        = Model( 'User' );
 
 module.exports = Application.extend({
 
   init : function ( before, after ){
-    after( this.validation,       { only : [ 'create', 'update' ]});
-    after( this.unique,           { only : [ 'create', 'update' ]});
-    after( this.record_not_found, { only : [ 'show', 'edit', 'update', 'destroy' ]});
+    after( this.validation, { only : [ 'create', 'update' ]});
+    after( this.unique,     { only : [ 'create', 'update' ]});
+    after( this.no_content, { only : [ 'show', 'edit', 'update', 'destroy' ]});
   },
 
   new : function ( req, res, next ){

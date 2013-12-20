@@ -28,7 +28,7 @@ logs:
   - error
   - debug
 
-libs: []
+libs:
 
 # libs that must run after server started
 started:

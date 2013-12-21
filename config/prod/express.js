@@ -8,7 +8,6 @@ module.exports = function ( express, app, middleware ){
       cache       : true,
       compress    : true
     });
-    app.use( express.static( PUB_DIR ));
     app.use( express.json());
     app.use( express.urlencoded());
     app.use( express.multipart());

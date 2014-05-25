@@ -4,7 +4,7 @@
   "private"     : true,
   "dependencies": {
     "body-parser"        : "1.2.0",
-    "coke"               : "0.20.3",
+    "coke"               : "0.20.4",
     "cookie-parser"      : "1.1.0",
     "connect-mongo"      : "0.4.1",
     "connect-multiparty" : "1.0.3",
@@ -16,13 +16,13 @@
     "moment"             : "2.6.0",
     "mongoose"           : "3.8.11",
     "node.class"         : "1.1.4",
+    "serve-favicon"      : "2.0.0",
+    "serve-static"       : "1.1.0",
     "sitemap"            : "0.7.2",
     "socket.io"          : "0.9.17"
   },
   "devDependencies": {
     "mocha"         : "1.19.0",
-    "serve-favicon" : "2.0.0",
-    "serve-static"  : "1.1.0",
     "should"        : "3.3.2",
     "vodka"         : "3.0.3"
   },

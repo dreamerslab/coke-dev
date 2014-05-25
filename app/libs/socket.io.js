@@ -1,4 +1,4 @@
-exports.init = function( servers, express, app ){
+exports.init = function( servers, app ){
   servers.forEach( function ( server ){
     var io = require( 'socket.io' ).listen( server );
 

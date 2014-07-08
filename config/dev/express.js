@@ -11,8 +11,8 @@ module.exports = function ( app, middleware ){
   app.use( middleware.logger );
   app.use( middleware.session());
   app.use( middleware.flash());
-  app.use( middleware.csrf());
   app.use( middleware.method_override());
+  app.use( middleware.csrf());
   app.use( middleware.dynamic_helpers );
   app.routes();
   app.use( middleware.error_handler({

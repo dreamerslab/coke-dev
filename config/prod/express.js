@@ -5,7 +5,8 @@ module.exports = function ( app, middleware ){
   app.engine( 'html', require( 'express-thunder' ));
   app.set( 'view engine', 'html' );
   app.set( 'views', VIEW_DIR );
-  app.use( middleware.body_parser());
+  app.use( middleware.body_parser.json());
+  app.use( middleware.body_parser.urlencoded({ extended: true }));
   app.use( middleware.multipart());
   app.use( middleware.cookie_parser( CONF.session.secret ));
   app.use( middleware.logger );

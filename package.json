@@ -19,7 +19,7 @@
     "serve-favicon"      : "2.1.4",
     "serve-static"       : "1.6.2",
     "sitemap"            : "0.7.4",
-    "socket.io"          : "1.0.6"
+    "socket.io"          : "1.1.0"
   },
   "devDependencies": {
     "mocha"         : "1.21.4",
